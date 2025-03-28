@@ -2,18 +2,37 @@ project:
   type: website
 
 website:
-  title: "Portofolio_Website"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  page-navigation: false
+  title: "Alexei's Portofolio"
+  favicon: "images/icon.png"
+  
+  sidebar: 
+    background: "#282D33"
+    logo: "images/title.png"
+    pinned: true
+    align: center
+  
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+        - href: index.qmd
+          text: Home
+        - href: rprojects.qmd
+          text: R Projects 
+        - href: pprojects.qmd
+          text: Python Projects
+        - href: sprojects.qmd
+          text: SQL Projects
+        - href: about.qmd
+          text: About Me
+
 
 format:
   html:
-    theme: cosmo
+    theme: journal
+    smooth-scroll: true
     css: styles.css
     toc: true
 
 editor: visual
-

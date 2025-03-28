@@ -2,15 +2,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Portofolio_Website",
+    "title": "Welcome to Alexei Jason’s Projects Portofolio",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Hey, I’m Alexei, a Data Analyst Who Loves Turning Data Into Stories\nWelcome to my portfolio. I am a data analyst who enjoys making sense of numbers and transforming them into valuable insights. I work with Python, R, SQL, and Tableau to explore data, uncover patterns, and create visuals that help people make smarter decisions.\nIn this portfolio, you will find some of my favorite projects. from digging deep into messy datasets, creating clean and meaningful analyses, to building dashboards that actually tell a story (not just look pretty). I’m always looking for new challenges, and I’m excited about opportunities where I can apply my skills, learn from others, and make an impact.\nTake a look around, and if you like what you see, let’s connect!",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About this site\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "About Us"
+    ]
   }
 ]
