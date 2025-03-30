@@ -3,36 +3,55 @@ project:
 
 website:
   page-navigation: false
-  title: "Alexei's Portofolio"
+  title: "Alexei's Portfolio"
   favicon: "images/icon.png"
   
-  sidebar: 
+  sidebar:
     background: "#282D33"
     logo: "images/title.png"
     pinned: true
     align: center
-  
     style: "docked"
     search: true
     collapse-level: 1
     contents:
-        - href: index.qmd
-          text: Home
+      - href: index.qmd
+        text: Home
+      - section: "R Projects"
+        contents: 
         - href: rprojects.qmd
-          text: R Projects 
-        - href: pprojects.qmd
-          text: Python Projects
-        - href: sprojects.qmd
-          text: SQL Projects
-        - href: about.qmd
-          text: About Me
-
+          text: R Projects
+      - section: "Python Projects"
+        contents: 
+        - href: rprojects.qmd
+          text: R Projects
+      - section: "SQL Projects"
+        contents: 
+        - href: rprojects.qmd
+          text: R Projects
+      - href: about.qmd
+        text: About Me
+        
+    tools:
+    - icon: linkedin
+      href: https://www.linkedin.com/in/alexei-jason-51a137170/
+      aria-label: Linkedin
+    - icon: github
+      href: https://github.com/AlexeiJason
+      aria-label: Github
+    - icon: diagram-3-fill
+      href: https://public.tableau.com/app/profile/alexei.jason/vizzes
+      aria-label: Tableau
 
 format:
   html:
-    theme: journal
+    theme: 
+      - journal
+      - custom.css
     smooth-scroll: true
     css: styles.css
-    toc: true
+    toc: false
 
 editor: visual
+
+

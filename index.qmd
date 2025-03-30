@@ -2,7 +2,7 @@
 title: "Welcome to Alexei Jason's Projects Portofolio"
 ---
 
-###  Hey, I'm Alexei, a Data Analyst Who Loves Turning Data Into Stories
+### Hey, I'm Alexei, a Data Analyst Who Loves Turning Data Into Stories
 
 Welcome to my portfolio. I am a data analyst who enjoys making sense of numbers and transforming them into valuable insights. I work with Python, R, SQL, and Tableau to explore data, uncover patterns, and create visuals that help people make smarter decisions.
 
