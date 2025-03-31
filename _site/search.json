@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hey, I’m Alexei, a Data Analyst Who Loves Turning Data Into Stories",
+    "title": "Alexei's Portfolio",
     "section": "",
-    "text": "Hey, I’m Alexei, a Data Analyst Who Loves Turning Data Into Stories\n\n\n\n\n\n\nWelcome to my portfolio. I am a data analyst who enjoys making sense of numbers and transforming them into valuable insights. I work with Python, R, SQL, and Tableau to explore data, uncover patterns, and create visuals that help people make smarter decisions.\n\n\nIn this portfolio, you will find some of my favorite projects. from digging deep into messy datasets, creating clean and meaningful analyses, to building dashboards that actually tell a story (not just look pretty). I’m always looking for new challenges, and I’m excited about opportunities where I can apply my skills, learn from others, and make an impact.\n\n\nTake a look around, and if you like what you see, let’s connect!",
+    "text": "Hey there! Welcome to my Datal Analytics and Applications playground! 🚀 Dive into my projects where data gets a makeover, turning into exciting stories and insights. Hurray! 🎉✨\n\n\nMy Latest Works:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOptimization of Project Name Matching Using LLM AI\n\n\n\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\nAlexei Jason\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home"
     ]
@@ -14,9 +14,16 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2",
+    "text": "Hey, I’m Alexei, a Data Analyst Who Loves Turning Data Into Stories\n\n\n\n\n\n\nWelcome to my portfolio. I am a data analyst who enjoys making sense of numbers and transforming them into valuable insights. I work with Python, R, SQL, and Tableau to explore data, uncover patterns, and create visuals that help people make smarter decisions.\n\n\nIn this portfolio, you will find some of my favorite projects. from digging deep into messy datasets, creating clean and meaningful analyses, to building dashboards that actually tell a story (not just look pretty). I’m always looking for new challenges, and I’m excited about opportunities where I can apply my skills, learn from others, and make an impact.\n\n\nTake a look around, and if you like what you see, let’s connect!",
     "crumbs": [
       "About Me"
     ]
+  },
+  {
+    "objectID": "LLM_String_Matching.html",
+    "href": "LLM_String_Matching.html",
+    "title": "Optimization of Project Name Matching Using LLM AI",
+    "section": "",
+    "text": "The approach integrates the use of PropertyGuru’s Malaysia Properties Information datasets, including Project Metadata (Malaysia’s property description information) and MY Sales Fact (Malaysia’s property sales transactions)\nFiltering and Grouping was applied to both datasets, focusing exclusively on high-rise property types, such as condominiums and apartments. Stratified sampling was performed on the project metadata to obtain representative samples for the experiment.\nThe filtered and sampled results were cross-joined using BigQuery, and the outcomes were divided into two categories:\n\nThe first category includes records with a Levenshtein (Lev) score above 0.95. The Lev score is a similarity measure where 1 is the highest, indicating identical project names. This segment represents 28% of the total sample, with records in this range assumed to be already matched.\n\n\n\nThe second category consists of records with Lev scores between 0.65 and 0.95, which account for 40% of the samples. Project pairs with a Lev score below 0.65 are assumed to be unmatched. The score range between 0.65 and 0.95 represents a “grey area,” where further accuracy assessment will be conducted using the OpenAI API."
   }
 ]

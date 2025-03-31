@@ -1,0 +1,29 @@
+---
+title: "Optimization of Project Name Matching Using LLM AI"
+author: "Alexei Jason"
+date: "September 13, 2024"
+date-modified: "last-modified"
+execute: 
+  eval: true
+  echo: true
+  warning: false
+editor: visual
+categories: 
+  - "LLM"
+  - "SQL"
+  - "Python"
+---
+
+![](images/LLM Methodologhy.png)
+
+The approach integrates the use of PropertyGuru's Malaysia Properties Information datasets, including Project Metadata (Malaysia’s property description information) and MY Sales Fact (Malaysia’s property sales transactions)
+
+Filtering and Grouping was applied to both datasets, focusing exclusively on high-rise property types, such as condominiums and apartments. Stratified sampling was performed on the project metadata to obtain representative samples for the experiment.
+
+The filtered and sampled results were cross-joined using BigQuery, and the outcomes were divided into two categories:
+
+-   The first category includes records with a Levenshtein (Lev) score above 0.95. The Lev score is a similarity measure where 1 is the highest, indicating identical project names. This segment represents 28% of the total sample, with records in this range assumed to be already matched.
+
+<!-- -->
+
+-   The second category consists of records with Lev scores between 0.65 and 0.95, which account for 40% of the samples. Project pairs with a Lev score below 0.65 are assumed to be unmatched. The score range between 0.65 and 0.95 represents a "grey area," where further accuracy assessment will be conducted using the OpenAI API.

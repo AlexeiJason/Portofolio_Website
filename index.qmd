@@ -1,13 +1,15 @@
 ---
-
+listing:
+  type: default
+  max-items: 6
+  contents:
+    - "LLM_String_Matching.qmd"
+  sort: 
+    - "date desc"
+toc: false
+back-to-top-navigation: true
 ---
 
-# Hey, I'm Alexei, a Data Analyst Who Loves Turning Data Into Stories {style="text-align: center;"}
+###### Hey there! Welcome to my **Datal Analytics and Applications** playground! 🚀 Dive into my projects where data gets a makeover, turning into exciting stories and insights. Hurray! 🎉✨
 
-![](images/alexei 2.png){fig-align="center" width="400"}
-
-### Welcome to my portfolio. I am a data analyst who enjoys making sense of numbers and transforming them into valuable insights. I work with Python, R, SQL, and Tableau to explore data, uncover patterns, and create visuals that help people make smarter decisions. {style="text-align: center;"}
-
-### In this portfolio, you will find some of my favorite projects. from digging deep into messy datasets, creating clean and meaningful analyses, to building dashboards that actually tell a story (not just look pretty). I'm always looking for new challenges, and I’m excited about opportunities where I can apply my skills, learn from others, and make an impact. {style="text-align: center;"}
-
-### Take a look around, and if you like what you see, let's connect! {style="text-align: center;"}
+#### **My Latest Works:**
