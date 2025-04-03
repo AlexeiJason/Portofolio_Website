@@ -6,7 +6,7 @@ website:
   title: "Alexei's Portfolio"
   favicon: "images/icon.png"
   
-  sidebar:
+  navbar:
     background: "#282D33"
     logo: "images/title.png"
     pinned: true
