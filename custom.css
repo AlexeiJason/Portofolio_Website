@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 // Colors
-$sky-blue: #52B2BF;
+$sky-blue: #282D33;
 $cream: #F8F3E6;
 $blue: #4d5887;
 $orange: #EC9706;
@@ -11,9 +11,9 @@ $black: #000000;
 $purple: #7852A9;
 
 // Base document colors
-$navbar-bg: $sky-blue; // navbar
-$navbar-fg: $black; // navbar foreground elements
-$navbar-hl: $orange; // highlight color when hovering over navbar links
+$sidebar-bg: $sky-blue; // sidebar background
+$sidebar-fg: $cream; // sidebar foreground elements
+$sidebar-hl: $orange; // highlight color when hovering over sidebar links
 $body-bg: $cream; // page background 
 $body-color: $black; // page text 
 $footer-bg: $cream; // footer 
@@ -22,7 +22,7 @@ $link-color: $blue; // hyperlinks
 // fonts
 $font-family: 'IBM Plex Mono', monospace;
 
-//toc 
+// toc 
 $toc-font-size: 11px;
 $toc-active-border: $orange;
 
@@ -34,6 +34,35 @@ $callout-color-important: $pink;
 
 
 /*-- scss:rules --*/
+.sidebar {
+
+  a {
+    color: $sidebar-fg;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 0;
+    transition: color 0.3s, transform 0.3s;
+
+    /* Bigger icon styling */
+    i, svg {
+      font-size: 1.5em; // Change this to 2em or more if you want even bigger
+      vertical-align: middle;
+      margin-right: 0.5em; // optional: adds space between icon and text
+    }
+
+    &:hover {
+      color: $orange;
+      transform: translateX(5px);
+    }
+  }
+
+  /* Newly added active link style */
+  a.active {
+    color: $orange;
+    font-weight: bold;
+    transform: translateX(5px);
+  }
+}
 
 .title {
   margin-top: 2em !important;
@@ -55,7 +84,6 @@ body {
   text-align: right;
   padding-right: 1em;
 }
-
 
 /* Heading 1 */
 h1 {
