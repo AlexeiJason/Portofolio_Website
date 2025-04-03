@@ -1,5 +1,6 @@
 ---
 listing:
+  categories: true
   type: default
   max-items: 6
   contents:
